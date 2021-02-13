@@ -4,7 +4,7 @@ html {
           box-sizing: border-box;
   width: 100vw;
   height: 100vh;
-  background-image: url("../../images/bg-pattern-top.svg"), url("../../images/bg-pattern-bottom.svg");
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
   background-color: #19a2ae;
   padding: inherit;
 }
@@ -39,7 +39,7 @@ body {
   width: 28rem;
   border-radius: 5%;
   margin-top: 9%;
-  background-image: url("../../images/bg-pattern-card.svg");
+  background-image: url("../images/bg-pattern-card.svg");
   background-repeat: no-repeat;
   background-size: 28rem 11.5rem;
   padding-bottom: 1px;
