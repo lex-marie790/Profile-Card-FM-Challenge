@@ -1,0 +1,12 @@
+@media (min-width: 64em) {
+
+} 
+
+$breakpoints-mobile: ("small" : "375px");
+
+
+@mixin breakpoints-mobile($size) {
+    @media (min-width: map.get($breakpoints-mobile, $size)) {
+        @content;
+    }
+}
