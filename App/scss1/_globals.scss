@@ -36,10 +36,9 @@ body {
     padding-bottom: 1px;
     margin-bottom: 14px;
 
-    @media screen and (max-width: 400px) {
-        width: 102%;
-        margin-top: 55%;
-        margin-left: 7%;
+    @media screen and (max-width: 405px) {
+        width: 94%;
+        margin-top: 33%;
     }
 }
 
@@ -90,8 +89,9 @@ p {
     margin-bottom: 9px;
     padding-top: 15px;
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 405px) {
         justify-content: space-evenly;
+        width: 24rem;
     }
 
 }

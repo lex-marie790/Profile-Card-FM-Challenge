@@ -46,11 +46,10 @@ body {
   margin-bottom: 14px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 405px) {
   .card {
-    width: 102%;
-    margin-top: 55%;
-    margin-left: 7%;
+    width: 94%;
+    margin-top: 33%;
   }
 }
 
@@ -85,7 +84,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
   display: flex;
-  width: 25rem;
   margin: -1rem;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -131,11 +129,12 @@ p {
   padding-top: 15px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 405px) {
   .stats {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    width: 24rem;
   }
 }
 
